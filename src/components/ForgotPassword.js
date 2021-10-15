@@ -12,6 +12,7 @@ export default function ForgotPassword() {
     console.log(user);
     fetch("https://password-reset-back.herokuapp.com/forgot-password", {
       method: "POST",
+      mode: "no-cors",
       headers: {
         "Access-control-allow-origin": "*",
         "Content-Type": "application/json",

@@ -16,6 +16,7 @@ export default function ResetPassword() {
 
     fetch("https://password-reset-back.herokuapp.com/reset-password", {
       method: "POST",
+      mode: "no-cors",
       headers: {
         "Access-control-allow-origin": "*",
         "Content-Type": "application/json",

@@ -19,6 +19,7 @@ export default function Register() {
     console.log(createUser);
     fetch("https://password-reset-back.herokuapp.com/signup", {
       method: "POST",
+      mode: "no-cors",
       headers: {
         "Access-control-allow-origin": "*",
         "Content-type": "application/json",
