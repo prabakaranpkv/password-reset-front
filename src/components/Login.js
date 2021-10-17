@@ -74,10 +74,10 @@ export default function Register() {
           <div className="row">
             <div className="col-md-12 col-sm-12">
               <Link className="loginLink" to="/forgot-password">
-                Forgot Password ?{" "}
+                Forgot Password ?
               </Link>
               <Link className="loginLink" to="/signup">
-                Don't have an account? Sign Up here{" "}
+                Don't have an account? Sign Up here
               </Link>
             </div>
           </div>

@@ -42,7 +42,6 @@ export default function Register() {
             </div>
             <div className="col-md-6 col-sm-12">
               <td>
-                {" "}
                 <input
                   onInput={(e) => setFirstName(e.target.value)}
                   type="text"
@@ -60,7 +59,6 @@ export default function Register() {
             </div>
             <div className="col-md-6 col-sm-12">
               <td>
-                {" "}
                 <input
                   onInput={(e) => setLastName(e.target.value)}
                   type="text"
@@ -78,7 +76,6 @@ export default function Register() {
             </div>
             <div className="col-md-6 col-sm-12">
               <td>
-                {" "}
                 <input onInput={(e) => setEmail(e.target.value)} type="text" />
               </td>
             </div>
@@ -93,7 +90,6 @@ export default function Register() {
             </div>
             <div className="col-md-6 col-sm-12">
               <td>
-                {" "}
                 <input
                   onInput={(e) => setPassword(e.target.value)}
                   type="password"
@@ -111,7 +107,6 @@ export default function Register() {
             </div>
             <div className="col-md-6 col-sm-12">
               <td>
-                {" "}
                 <input
                   onInput={(e) => setMobileNo(e.target.value)}
                   type="number"
